@@ -1,0 +1,22 @@
+BUILD INSTRUCTIONS
+------------------
+
+Prerequisites:
+- C++ compiler with C++11 support
+- world_car_sales_1m.csv file in the same directory
+
+Method 1: Using Make
+--------------------
+make
+./car_sales_analysis
+
+Method 2: Using g++
+-------------------
+g++ -std=c++11 -O2 -o car_sales_analysis car_sales_analysis.cpp
+./car_sales_analysis
+
+Output:
+-------
+Task 1: Audi cars sold in China (2025)
+Task 2: BMW total revenue (2025)
+Task 3: Audi and BMW distribution in European countries
